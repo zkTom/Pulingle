@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false
+    }]
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    ["transform-runtime",{
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true
+    }],
+    "transform-regenerator",
+    "transform-async-to-generator",
+    "transform-object-rest-spread",
+    "lodash",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
+  ]
+}

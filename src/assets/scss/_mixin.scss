@@ -1,0 +1,8 @@
+@mixin text-ellipsis{
+  overflow: hidden;
+  white-space:nowrap;
+  word-break: break-word;
+  text-overflow: ellipsis;
+}
+
+$color-base:RGBA(33, 178, 146, 1) !default;

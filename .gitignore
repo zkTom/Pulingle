@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+.svn
+.vscode
+theme
+debug.log
+test/unit/coverage

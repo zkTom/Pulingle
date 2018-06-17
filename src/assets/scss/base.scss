@@ -1,0 +1,168 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+div,p,span,ul,ol,a{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  border: 0;
+  outline: 0;
+}
+button{
+	user-select: none;
+	outline: none;
+
+	&:active,
+	&:disabled{
+		opacity: 0.75;
+	}
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.btn {
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  outline: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+
+}
+
+.btn-default{
+  color: #333;
+  background-color: #fff;
+
+  &:active{
+    background-color: #fff;
+  }
+
+  &:disabled{
+    opacity: 0.5;
+  }
+
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: RGBA(33, 178, 146, 1);
+
+  &:active{
+    background-color: RGBA(33, 178, 146, 1);
+  }
+
+  &:disabled{
+    opacity: 0.5;
+  }
+}
+
+.btn-danger{
+  color: #fff;
+  background-color: #de5151;
+
+  &:active{
+    background-color: #f76060;
+  }
+
+  &:disabled{
+    background-color: #f76060;
+    opacity: 0.65;
+  }
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix{
+
+}
+.clearfix:after{
+  content:'';
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+.mask-wrapper{
+  background-color: rgba(0,0,0,.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 100;
+  margin: 0;
+}
+.mask{
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  position: relative;
+  margin: 0 auto 50px;
+  z-index: 101;
+}
