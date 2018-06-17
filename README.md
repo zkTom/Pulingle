@@ -1,1 +1,1 @@
-## 一个Pulingle社交应用
+## 一个Pulingle社交应用。
